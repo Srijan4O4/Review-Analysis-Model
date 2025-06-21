@@ -1,0 +1,51 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+becenv/
+.env
+*.env
+
+# Jupyter Notebook Checkpoints (if any)
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, if you're using VS Code)
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Datasets or large files
+data/
+Garbage Dataset/
+
+# joblib model outputs (optional - keep if needed)
+joblib/
+
+# Environment/Dependency Files
+requirements.txt  # You should keep this, so do NOT ignore it
+
+# Compiled C/C++/shared objects
+*.so
+*.dll
+*.o
+*.a
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
