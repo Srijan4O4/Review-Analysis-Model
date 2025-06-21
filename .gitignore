@@ -22,17 +22,17 @@ Thumbs.db
 .pytest_cache/
 
 # Logs
-*.log
+# *.log
 
 # Datasets or large files
-data/
-Garbage Dataset/
+# data/
+# Garbage Dataset/
 
 # joblib model outputs (optional - keep if needed)
-joblib/
+# joblib/
 
 # Environment/Dependency Files
-requirements.txt  # You should keep this, so do NOT ignore it
+# requirements.txt  # You should keep this, so do NOT ignore it
 
 # Compiled C/C++/shared objects
 *.so
