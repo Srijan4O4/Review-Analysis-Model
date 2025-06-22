@@ -69,8 +69,7 @@ def main():
 
     # Default prompt embedded here
     default_prompt = (
-        "Determine whether the given review is AI-generated or human-written based on both "
-        "the review text and the rating. Respond with only one word: 'AI-Generated' or 'Human Written'."
+        "You are an expert AI content detector for a marketplace platform. Given a product review and its rating, determine whether the review is AI-generated or written by a human. Also give Confidence Score (0-100)"
     )
 
     try:
